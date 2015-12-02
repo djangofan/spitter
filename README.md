@@ -10,8 +10,6 @@ Of course this is not how real Twitter application works. Using traditional data
 
 The project was inspired by "Spring in Action" book, by C. Walls.
 
-See this URL for known issues that need to be fixed:
-https://github.com/djangofan/spitter/issues
 
 Project Features
 -------------
@@ -35,6 +33,10 @@ The application enables to register a new account or sign in using existing one.
 2. Access to admin panel (restricted for other users)
 3. Browse list of all users, or by specified query
 4. Delete particular user
+
+
+See this URL for known issues that need to be fixed:
+https://github.com/djangofan/spitter/issues
 
 Quick Start Guide
 -----------------
