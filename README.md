@@ -17,32 +17,21 @@ The application enables to register a new account or sign in using existing one.
 
 List of features (user):
 
-#) Register new account
-
-#) Remind password on email
-
-#) Customize the profile (personal details, upload/remove picture)
-
-#) Post message which would be visible to the user and people who follow him/her
-
-#) Delete his/her messages
-
-#) Search for other users and browse their profiles
-
-#) Follow/Unfollow other users (link in their profile)
-
-#) Browse list of followers/following
+1. Register new account
+2. Remind password on email
+3. Customize the profile (personal details, upload/remove picture)
+4. Post message which would be visible to the user and people who follow him/her
+5. Delete his/her messages
+6. Search for other users and browse their profiles
+7. Follow/Unfollow other users (link in their profile)
+8. Browse list of followers/following
 
 List of features (admin):
 
-#) Everything and standard user
-
-#) Access to admin panel (restricted for other users)
-
-#) Browse list of all users, or by specified query
-
-#) Delete particular user
-
+9. Everything and standard user
+10. Access to admin panel (restricted for other users)
+11. Browse list of all users, or by specified query
+12. Delete particular user
 
 Quick Start Guide
 -----------------
