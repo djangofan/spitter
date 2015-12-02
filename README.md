@@ -6,11 +6,9 @@ Introduction
 
 This project imitates the fundamental features of Twitter. It is based on 3 layer architecture. Presentation layer is carried out in Spring MVC, Tiles2, and JavaScript. Service and Persistence layers use core Spring functionality leveraged by Hibernate. The entire project is built in Maven and current connection settings use PostgreSQL database.
 
-Of course this is not how real Twitter application works. Using traditional database for their purpose is completely unfeasible. Here is an interesting presentation about accessing big datasets in real-time: link_
+Of course this is not how real Twitter application works. Using traditional database for their purpose is completely unfeasible.
 
-.. _link: http://www.slideshare.net/nkallen/q-con-3770885?from=ss_embed
-
-The project was inspired by "Spring in action" by C. Walls.
+The project was inspired by "Spring in Action" book, by C. Walls.
 
 Project Features
 -------------
