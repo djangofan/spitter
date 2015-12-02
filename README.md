@@ -44,10 +44,10 @@ make sure to provide your own details regarding database connection and email us
 
 In spring-servlet.xml, lines 32 and 33 -- make sure to provide username and password to your email account:
 
-<pre><code>
+```xml
 <property name="username" value="spitter.reminder" />
-> <property name="password" value="yourPass" />
-</code></pre>
+<property name="password" value="yourPass" />
+```
 
 In spring-servlet.xml, line 74 provide the path to your database (you can name it whatever you want):
 
