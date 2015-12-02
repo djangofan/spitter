@@ -10,6 +10,9 @@ Of course this is not how real Twitter application works. Using traditional data
 
 The project was inspired by "Spring in Action" book, by C. Walls.
 
+See this URL for known issues that need to be fixed:
+https://github.com/djangofan/spitter/issues
+
 Project Features
 -------------
 
