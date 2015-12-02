@@ -34,7 +34,7 @@ The application enables to register a new account or sign in using existing one.
 3. Browse list of all users, or by specified query
 4. Delete particular user
 
-
+#### Known issues
 See this URL for known issues that need to be fixed:
 https://github.com/djangofan/spitter/issues
 
