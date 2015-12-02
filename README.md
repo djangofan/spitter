@@ -10,6 +10,7 @@ Of course this is not how real Twitter application works. Using traditional data
 
 The project was inspired by "Spring in Action" book, by C. Walls.
 
+![spitter](./blob/master/spitter.png)
 
 Project Features
 -------------
