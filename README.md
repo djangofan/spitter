@@ -15,7 +15,7 @@ Project Features
 
 The application enables to register a new account or sign in using existing one. Each registered user can navigate the application through the dashboard where he can post a new message (visible to all who follow him), search for other people, follow and unfollow other users. The user has full control over his own posts and can delete them at any time, as well as customize his own profile (including providing personal information and uploading avatar).
 
-List of features (user):
+#### List of features (user):
 
 1. Register new account
 2. Remind password on email
@@ -26,7 +26,7 @@ List of features (user):
 7. Follow/Unfollow other users (link in their profile)
 8. Browse list of followers/following
 
-List of features (admin):
+#### List of features (admin):
 
 9. Everything and standard user
 10. Access to admin panel (restricted for other users)
