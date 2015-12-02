@@ -37,24 +37,30 @@ Quick Start Guide
 -----------------
 
 Before you deploy this project on the server (if you're using Eclipse make sure to "Maven>Update project" beforehand):
+
 ``tomcat:run``
 
 make sure to provide your own details regarding database connection and email used as a reminder (my implementation facilitates GMail).
 
 In spring-servlet.xml, lines 32 and 33 -- make sure to provide username and password to your email account:
-``<property name="username" value="spitter.reminder" />
-<property name="password" value="yourPass" />``
+
+``<property name="username" value="spitter.reminder" />``
+``<property name="password" value="yourPass" />``
 
 In spring-servlet.xml, line 74 provide the path to your database (you can name it whatever you want):
+
 ``<property name="url" value="jdbc:postgresql://localhost:5432/spitter_db"></property>``
 
 and in line 76 provide your password:
+
 ``<property name="password" value="yourPass" />``
 
 To enable using HTTPS, adjust your server in spring-security.xml in lines 10, 11, and 12 to add XML attribute:
+
 ``requires-channel="https"``
 
 After signing yourself up initially, you'll need to change yourself as a ROLE_ADMIN by editing the spitter_db.spittr.grantedauthority field.   Then, you will be able to access the admin at:
+
 ``http://localhost:8080/spitter/admin/main``
 
 
