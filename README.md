@@ -51,11 +51,15 @@ In spring-servlet.xml, lines 32 and 33 -- make sure to provide username and pass
 
 In spring-servlet.xml, line 74 provide the path to your database (you can name it whatever you want):
 
-``<property name="url" value="jdbc:postgresql://localhost:5432/spitter_db"></property>``
+```xml
+<property name="url" value="jdbc:postgresql://localhost:5432/spitter_db"></property>
+```
 
 and in line 76 provide your password:
 
-``<property name="password" value="yourPass" />``
+```xml
+<property name="password" value="yourPass" />
+```
 
 To enable using HTTPS, adjust your server in spring-security.xml in lines 10, 11, and 12 to add XML attribute:
 
