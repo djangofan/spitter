@@ -28,10 +28,10 @@ The application enables to register a new account or sign in using existing one.
 
 #### List of features (admin):
 
-9. Everything and standard user
-10. Access to admin panel (restricted for other users)
-11. Browse list of all users, or by specified query
-12. Delete particular user
+1. Everything and standard user
+2. Access to admin panel (restricted for other users)
+3. Browse list of all users, or by specified query
+4. Delete particular user
 
 Quick Start Guide
 -----------------
@@ -44,8 +44,8 @@ make sure to provide your own details regarding database connection and email us
 
 In spring-servlet.xml, lines 32 and 33 -- make sure to provide username and password to your email account:
 
-``<property name="username" value="spitter.reminder" />``
-``<property name="password" value="yourPass" />``
+> <property name="username" value="spitter.reminder" />
+> <property name="password" value="yourPass" />
 
 In spring-servlet.xml, line 74 provide the path to your database (you can name it whatever you want):
 
